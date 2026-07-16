@@ -1,16 +1,74 @@
-# React + Vite
+# Kaifur Rahaman Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website built with React, Vite, and React Router. It showcases my background, skills, experience, projects, resume, and contact information in a clean multi-page layout.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Responsive one-page and multi-page portfolio experience
+- Dedicated sections for About, Skills, Experience, Projects, Resume, and Contact
+- Project cards with live demo and GitHub links
+- Dark/light theme toggle
+- Resume download button
+- Clean and modern UI styled with custom CSS
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- React Router DOM
+- CSS3
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- src/App.jsx — Home page layout
+- src/PortfolioShell.jsx — Shared header and theme wrapper
+- src/AboutPage.jsx — About section page
+- src/SkillsPage.jsx — Skills section page
+- src/ExperiencePage.jsx — Experience section page
+- src/ResumePage.jsx — Resume page
+- src/ContactPage.jsx — Contact page
+- src/ProjectsPage.jsx — Projects page
+- src/projectData.js — Project details and links
+- src/App.css — Main styling
+
+## Installation
+
+1. Clone the repository
+
+   ```bash
+   git clone <your-repository-url>
+   cd portfolio-react
+   ```
+
+2. Install dependencies
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and visit
+   ```bash
+   http://localhost:5173
+   ```
+
+## Build
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+## Contact
+
+If you want to connect or discuss collaboration opportunities, feel free to reach out:
+
+- Email: kaifur.rahaman.145@gmail.com
+- GitHub: https://github.com/Kaif145
+- LinkedIn: https://www.linkedin.com/in/kaifurrahaman
