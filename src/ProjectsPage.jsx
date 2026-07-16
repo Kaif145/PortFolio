@@ -1,6 +1,6 @@
-import './App.css'
-import { projectsData } from './projectData'
-import PortfolioShell from './PortfolioShell'
+import "./App.css";
+import { projectsData } from "./projectData";
+import PortfolioShell from "./PortfolioShell";
 
 function ProjectsPage() {
   return (
@@ -20,7 +20,11 @@ function ProjectsPage() {
                     <a href={project.liveLink} target="_blank" rel="noreferrer">
                       <i className="fa-solid fa-up-right-from-square" /> Live
                     </a>
-                    <a href={project.githubLink} target="_blank" rel="noreferrer">
+                    <a
+                      href={project.githubLink}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <i className="fa-brands fa-github" /> GitHub
                     </a>
                   </div>
@@ -39,7 +43,7 @@ function ProjectsPage() {
         </section>
       </main>
     </PortfolioShell>
-  )
+  );
 }
 
-export default ProjectsPage
+export default ProjectsPage;
